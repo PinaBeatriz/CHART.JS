@@ -19,7 +19,7 @@ Este repositório apresenta implementações com a biblioteca **Chart.js** para 
 
 ## Tecnologias Utilizadas
 
-*HTML
-*CSS
-*JavaScript
-*Chart.js
+- HTML
+- CSS
+- JavaScript
+- Chart.js
