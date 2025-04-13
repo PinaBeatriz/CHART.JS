@@ -1,0 +1,28 @@
+body {
+    margin: 0; /* Remove a margem */
+    padding: 0; /* Remove o preenchimento interno */
+    background-color: #d9fdd3;
+    height: 100vh; /* Faz o body ocupar 100% da altura da janela */
+    font-family: sans-serif;
+    display: flex; /* Usa flexbox para facilitar a centralização */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+  /* Estilo do contêiner que envolve o gráfico */
+.chart-container {
+    width: 600px; /* Largura fixa */
+    height: 600px; /* Altura fixa */
+    background-color: white;
+    padding: 35px; /* Espaço interno ao redor do gráfico */
+    border-radius: 12px;
+    display: flex; /* Usa flexbox também dentro do contêiner */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+  /* Estilo do <canvas> que desenha o gráfico */
+canvas {
+    width: 100% ; /* Faz o gráfico ocupar toda a largura do conteiner */
+    height: auto; /* Altura automática */
+}
